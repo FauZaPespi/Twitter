@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="/">SlimTemplate</a>
+            <a class="navbar-brand fw-bold" href="/">Twitter</a>
             <div class="navbar-nav ms-auto d-flex align-items-center gap-2">
                 <?php if (!empty($_SESSION['user_id'])): ?>
                     <a class="nav-link" href="/profile">
